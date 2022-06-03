@@ -1,0 +1,32 @@
+.nav-wrapper {
+    background-color:lightblue;
+}
+
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-field {
+    margin: 20px;
+}
+  
+.row {
+    margin-top: 10px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: right;
+    width: 500px;
+
+}
+
+#backup {
+    margin-bottom: 20px;
+}
+
+#icon_message {
+    padding: 50px;
+}

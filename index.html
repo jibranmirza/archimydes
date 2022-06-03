@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archimydes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="arch.js">
+    
+
+</head>
+<header class="header">
+    <nav>
+        <div class="nav-wrapper">
+          <a href="https://archimydes.dev/" target="_blank" class="brand-logo"><img src="logo.svg" alt="Logo"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="https://earn.archimydes.dev/login" target="_blank">Earn</a></li>
+            <li><a href="Directory.html" target="_blank">Directory</a></li>
+            <li><a href="https://archimydes.dev/devjoin/" target="_blank">Guild Waitlist</a></li>
+            <li><a href="https://discord.com/invite/zDdDSEbWgh" target="_blank">Discord</a></li>
+          </ul>
+        </div>
+      </nav>
+</header>
+
+<body>
+  <center><h1>Leave Planner</h1></center>
+</body>
+
+<h4>Please fill the below form to apply for leaves</h4>
+
+<!-- <form action="">
+  <label for="name">Full Name</label>
+  <input type="text" name="name" placeholder="Full Name" required >
+  <label for="email">Email Address</label>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <label for="tel">Mobile Number</label>
+  <input type="tel" name="phone_num" placeholder="MobileNumber" required>
+  <label for="date">From Date</label>
+  <input type="date" name="date" placeholder="From Date">
+  <label for="date">To Date</label>
+  <input type="date" name="date" placeholder="To Date">
+  <textarea name="Message" id="" cols="30" rows="10">Provide Backup If Any</textarea>
+  <button type="submit">Submit</button>
+</form> -->
+
+<div class="contact-box">
+  <form class="col s12" action="https://formsubmit.co/jmirza@archimydes.com" method="POST">
+    <div class="row">
+      <div class="input-field col s4">
+        <i class="material-icons prefix">account_circle</i>
+        <input id="icon_prefix" type="text" class="validate" required>
+        <label for="icon_prefix">Full Name</label>
+      </div>
+      <div class="input-field col s4">
+        <i class="material-icons prefix">phone</i>
+        <input id="icon_telephone" type="tel" class="validate" required>
+        <label for="icon_telephone">Telephone</label>
+      </div>
+      <div class="input-field col s4">
+      <i class="material-icons prefix">email</i>
+      <input id="icon_email" type="email" class="validate" required>
+      <label for="icon_email">Email</label>
+      </div>
+      <div class="input-field col s4">
+        <i class="material-icons prefix">person_add</i>
+        <input id="icon_email" type="email" class="validate">
+        <label for="icon_person">Backup If Any</label>
+        </div>
+        <div class="input-field col s4">
+          <i class="material-icons prefix">date_range</i>
+          <input id="icon_date_range" type="date" class="validate" required>
+          <label for="icon_date_range">From Date</label>
+          </div>
+      <div class="input-field col s4">
+        <i class="material-icons prefix">date_range</i>
+        <input type="date" name="To Date">
+        <label for="icon_date_range">To Date</label>
+      </div> 
+      <div class="input-field col s4">
+        <i class="material-icons prefix">message</i>
+        <input id="icon_message" type="message" class="validate">
+        <label for="message"></label>
+      </div> 
+        <div class="btn1">
+      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+      </div> 
+  </form>
+</div>
+
+
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>    
+
+</body>
+</html>
